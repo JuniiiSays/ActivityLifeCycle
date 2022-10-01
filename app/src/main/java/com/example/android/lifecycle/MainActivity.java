@@ -47,11 +47,11 @@ public class MainActivity extends AppCompatActivity {
 
         mLifecycleDisplay = (TextView) findViewById(R.id.tv_lifecycle_events_display);
 
-        // TODO (1) Use logAndAppend within onCreate
+        // T05a.01 COMPLETED (1) Use logAndAppend within onCreate
         logAndAppend(ON_CREATE);
     }
 
-    // TODO (2) Override onStart, call super.onStart, and call logAndAppend with ON_START
+    // T05a.01 COMPLETED (2) Override onStart, call super.onStart, and call logAndAppend with ON_START
 
     @Override
     protected void onStart() {
@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
         logAndAppend(ON_START);
     }
 
-    // TODO (3) Override onResume, call super.onResume, and call logAndAppend with ON_RESUME
+    // T05a.01 COMPLETED (3) Override onResume, call super.onResume, and call logAndAppend with ON_RESUME
 
     @Override
     protected void onResume() {
@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
         logAndAppend(ON_RESUME);
     }
 
-    // TODO (4) Override onPause, call super.onPause, and call logAndAppend with ON_PAUSE
+    // T05a.01 COMPLETED (4) Override onPause, call super.onPause, and call logAndAppend with ON_PAUSE
 
     @Override
     protected void onPause() {
@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
         logAndAppend(ON_PAUSE);
     }
 
-    // TODO (5) Override onStop, call super.onStop, and call logAndAppend with ON_STOP
+    // T05a.01 COMPLETED (5) Override onStop, call super.onStop, and call logAndAppend with ON_STOP
 
     @Override
     protected void onStop() {
@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
         logAndAppend(ON_STOP);
     }
 
-    // TODO (6) Override onRestart, call super.onRestart, and call logAndAppend with ON_RESTART
+    // T05a.01 COMPLETED (6) Override onRestart, call super.onRestart, and call logAndAppend with ON_RESTART
 
     @Override
     protected void onRestart() {
@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
         logAndAppend(ON_RESTART);
     }
 
-    // TODO (7) Override onDestroy, call super.onDestroy, and call logAndAppend with ON_DESTROY
+    // T05a.01 COMPLETED (7) Override onDestroy, call super.onDestroy, and call logAndAppend with ON_DESTROY
 
     @Override
     protected void onDestroy() {
